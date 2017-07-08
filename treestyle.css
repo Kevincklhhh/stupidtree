@@ -1,0 +1,81 @@
+body{
+	background-color: #DBDBDB;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+h1{
+	font-size: 30px;
+}
+a:link{
+	color:;
+}
+a:visited{
+	color:#123e84;
+}
+a:hover{
+	color:#1b0b5b;
+}
+a:active{
+	color:cyan;
+}
+.box{
+	background-color: #058c0c;
+	border:1px dashed #000;
+	float:10px 40px 25px 5px;
+	/* margin-top: 20px;
+	margin-right: 500px;
+	margin-bottom: 100px;
+	margin-left: 50px;
+	*/
+	padding: 10px 20px 20px 5px;
+}
+.fixed{
+	width:200px;
+	height:200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#3A5F0B;
+}
+.fluid{
+	width:75%;
+	height:200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#3A5F0B
+}
+.responsive{
+	min-width: 300px;
+	max-width: 1248px;
+	height:200px;
+	background-color:#3A5F0B
+}
+.overflowauto{
+	overflow: auto;	
+	background-color:#966F33
+}
+.overflowhide{
+	overflow: auto;	
+	background-color:#966F33
+}
+.center{
+	overflow: auto;	
+	margin-left: auto;
+	margin-right: auto;;
+	background-color:#966F33
+}
+.left{
+	float:left;
+}
+.right{
+	float: right;
+	background-color: #aaff00;
+}
+.clear:after{
+	content: ".";
+	display: block;
+	clear:both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
